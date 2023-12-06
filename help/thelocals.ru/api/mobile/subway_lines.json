@@ -1,0 +1,81 @@
+[{
+  "id": 2,
+  "title": "Замоскворецкая",
+  "city_id": 1,
+  "bg_color": "#45b85e"
+}, {
+  "id": 3,
+  "title": "Арбатско-Покровская",
+  "city_id": 1,
+  "bg_color": "#0077bf"
+}, {
+  "id": 1,
+  "title": "Сокольническая",
+  "city_id": 1,
+  "bg_color": "#ff3818"
+}, {
+  "id": 4,
+  "title": "Филёвская",
+  "city_id": 1,
+  "bg_color": "#1ac1f3"
+}, {
+  "id": 5,
+  "title": "Кольцевая",
+  "city_id": 1,
+  "bg_color": "#a35139"
+}, {
+  "id": 6,
+  "title": "Калужско-Рижская",
+  "city_id": 1,
+  "bg_color": "#ff7d32"
+}, {
+  "id": 7,
+  "title": "Таганско-Краснопресненская",
+  "city_id": 1,
+  "bg_color": "#8042a2"
+}, {
+  "id": 8,
+  "title": "Калининская",
+  "city_id": 1,
+  "bg_color": "#ffc846"
+}, {
+  "id": 15,
+  "title": "Внутри кольца",
+  "city_id": 1,
+  "bg_color": "#252525"
+}, {
+  "id": 10,
+  "title": "Серпуховско-Тимирязевская",
+  "city_id": 1,
+  "bg_color": "#a7a7a7"
+}, {
+  "id": 11,
+  "title": "Люблинская",
+  "city_id": 1,
+  "bg_color": "#b0d351"
+}, {
+  "id": 12,
+  "title": "Каховская",
+  "city_id": 1,
+  "bg_color": "#75d5d0"
+}, {
+  "id": 13,
+  "title": "Бутовская",
+  "city_id": 1,
+  "bg_color": "#a8c7e7"
+}, {
+  "id": 14,
+  "title": "Монорельс",
+  "city_id": 1,
+  "bg_color": "#0078bf"
+}, {
+  "id": 16,
+  "title": "Московское центральное кольцо",
+  "city_id": 1,
+  "bg_color": "#efadb5"
+}, {
+  "id": 9,
+  "title": "Солнцевская",
+  "city_id": 1,
+  "bg_color": "#ffc846"
+}]

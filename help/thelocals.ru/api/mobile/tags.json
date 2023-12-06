@@ -1,0 +1,19 @@
+https://thelocals.ru/api/mobile/version
+
+[{
+  "id": 1,
+  "title": "Можно курить",
+  "slug": "smoke"
+}, {
+  "id": 2,
+  "title": "Подходит для мероприятий",
+  "slug": "party"
+}, {
+  "id": 3,
+  "title": "Можно с животными",
+  "slug": "animals"
+}, {
+  "id": 5,
+  "title": "Подходит для семьи с детьми",
+  "slug": "kids"
+}]

@@ -1,14 +1,31 @@
 {
-    "name": "alexandermomot/flatterbot",
+    "name": "alexandermomot/kvartirkinbot",
     "description": "This bot finds flats, parses it's information and notifies users about it",
     "type": "project",
-    "require": {
-        "irazasyed/telegram-bot-sdk": "^2.0"
-    },
     "authors": [
         {
             "name": "Alexander Momot",
             "email": "alexander.momot@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-json": "^1.6",
+        "ext-xml": "^7.2",
+        "ext-PDO": "^7.2",
+        "ext-pdo_pgsql": "^7.2",
+        "irazasyed/telegram-bot-sdk": "^2.2.0",
+        "monolog/monolog": "^1.22",
+        "klein/klein": "^2.1",
+        "propel/propel": "2.0.0-alpha8",
+        "vlucas/phpdotenv": "^3",
+        "myclabs/php-enum": "^1.6",
+        "hanneskod/classtools": "~1.0"
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    },
+    "autoload": {
+        "files": [ "src/.init.php" ]
+    }
 }

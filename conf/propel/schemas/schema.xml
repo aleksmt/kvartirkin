@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE database SYSTEM "xsd/database.xsd">
+<database name="default"
+          defaultIdMethod="native"
+          namespace="Kvartirkin\Model"
+          defaultPhpNamingMethod="underscore">
+
+  <!-- Bot users table -->
+  <table
+      name="bot_users"
+      schema="kvartirkin"
+      idMethod="native"
+      phpName="BotUsers"
+      namespace="Bot\Users">
+    <column name="id"               phpName="Id"              type="BIGINT" primaryKey="true" autoIncrement="true"/>
+    <column name="t_id"             phpName="TId"             type="BIGINT" required="true"/>
+    <column name="t_name"           phpName="TName"           type="LONGVARCHAR"/>
+    <column name="t_last_message"   phpName="TLastMessage"    type="VARCHAR"/>
+    <column name="t_bot_active"     phpName="TBotActive"      type="BOOLEAN" default="true"/>
+    <column name="t_from_time"      phpName="TNotifyFromTime" type="TIME" default="10:00:00"/>
+    <column name="t_to_time"        phpName="TNotifyToTime"   type="TIME" default="22:00:00"/>
+  </table>
+
+  <!-- Parsers settings -->
+  <table
+          name="bot_active_parsers"
+          schema="kvartirkin"
+          idMethod="native"
+          phpName="BotActiveParsers"
+          namespace="Bot\ActiveParsers">
+    <column name="class"        phpName="Class"     type="LONGVARCHAR" required="true" primaryKey="true"/>
+    <column name="active"       phpName="Active"    type="BOOLEAN" default="false"/>
+    <column name="last_run_ts"  phpName="lastRunTs" type="TIMESTAMP" default="1970-01-01 00:00:00"/>
+    <column name="from_time"    phpName="fromTime"  type="TIME" default="10:00:00"/>
+    <column name="to_time"      phpName="toTime"    type="TIME" default="22:00:00"/>
+  </table>
+
+</database>

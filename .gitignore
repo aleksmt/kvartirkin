@@ -1,2 +1,15 @@
-/vendor/
+# Some stuff here
+vendor/
 .idea/
+
+# Composer itself
+composer.phar
+
+# Environment variables
+.env
+
+# Propel
+generated-reversed-database/
+
+# Logs
+*.log

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+bin/propel model:build
+bin/propel sql:build --overwrite
+bin/propel sql:insert

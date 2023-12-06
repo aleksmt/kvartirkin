@@ -1,0 +1,29 @@
+[{
+  "id": 1,
+  "title": "Балкон",
+  "slug": "balcony"
+}, {
+  "id": 2,
+  "title": "Посудомоечная машина",
+  "slug": "dishwasher"
+}, {
+  "id": 3,
+  "title": "Холодильник",
+  "slug": "fridge"
+}, {
+  "id": 4,
+  "title": "Стиральная машина",
+  "slug": "washer"
+}, {
+  "id": 5,
+  "title": "Телевизор",
+  "slug": "tv"
+}, {
+  "id": 6,
+  "title": "Нагреватель воды",
+  "slug": "boiler"
+}, {
+  "id": 8,
+  "title": "Кондиционер",
+  "slug": "conditioner"
+}]

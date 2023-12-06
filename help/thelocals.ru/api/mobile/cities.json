@@ -1,0 +1,55 @@
+https://thelocals.ru/api/mobile/cities
+
+[{
+  "id": 1,
+  "title": "Москва",
+  "name": "moscow",
+  "subdomain": "",
+  "domain": "thelocals.ru",
+  "lat": 55.667246492757535,
+  "lng": 37.63216685781315,
+  "currency": "RUB",
+  "country": "ru",
+  "free_access": false,
+  "ad_featuring_price": 590,
+  "ad_forwarding_price": 390
+}, {
+  "id": 4,
+  "title": "Казань",
+  "name": "kazan",
+  "subdomain": "kazan",
+  "domain": "thelocals.ru",
+  "lat": 55.78874,
+  "lng": 49.12214,
+  "currency": "RUB",
+  "country": "ru",
+  "free_access": true,
+  "ad_featuring_price": 590,
+  "ad_forwarding_price": null
+}, {
+  "id": 3,
+  "title": "Киев",
+  "name": "kiev",
+  "subdomain": "",
+  "domain": "thelocals.com.ua",
+  "lat": 50.456891,
+  "lng": 30.437933,
+  "currency": "UAH",
+  "country": "ua",
+  "free_access": false,
+  "ad_featuring_price": 190,
+  "ad_forwarding_price": null
+}, {
+  "id": 2,
+  "title": "Санкт-Петербург",
+  "name": "spb",
+  "subdomain": "spb",
+  "domain": "thelocals.ru",
+  "lat": 59.952334,
+  "lng": 30.267726,
+  "currency": "RUB",
+  "country": "ru",
+  "free_access": false,
+  "ad_featuring_price": 590,
+  "ad_forwarding_price": null
+}]
